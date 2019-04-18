@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [FirstTestSuite]" parallel="tests">
+  <test name="LogInTest-FF(failed)" parallel="tests">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="com.bts.LoginTest">
+        <methods>
+          <include name="positiveLoginTest"/>
+          <include name="methodSetUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.bts.LoginTest -->
+    </classes>
+  </test> <!-- LogInTest-FF(failed) -->
+  <test name="LogInTest-Chrome(failed)" parallel="tests">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.bts.LoginTest">
+        <methods>
+          <include name="positiveLoginTest"/>
+          <include name="methodSetUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.bts.LoginTest -->
+    </classes>
+  </test> <!-- LogInTest-Chrome(failed) -->
+</suite> <!-- Failed suite [FirstTestSuite] -->

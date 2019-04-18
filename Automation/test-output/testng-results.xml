@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="2" total="4" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="FirstTestSuite" duration-ms="35937" started-at="2017-05-30T17:24:46Z" finished-at="2017-05-30T17:25:22Z">
+    <groups>
+    </groups>
+    <test name="LogInTest-Chrome" duration-ms="35699" started-at="2017-05-30T17:24:46Z" finished-at="2017-05-30T17:25:21Z">
+      <class name="com.bts.LoginTest">
+        <test-method status="PASS" signature="methodSetUp(java.lang.String)[pri:0, instance:com.bts.LoginTest@25b2fe]" name="methodSetUp" is-config="true" duration-ms="11944" started-at="2017-05-30T22:54:46Z" finished-at="2017-05-30T22:54:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodSetUp -->
+        <test-method status="PASS" signature="positiveLoginTest()[pri:0, instance:com.bts.LoginTest@25b2fe]" name="positiveLoginTest" duration-ms="20176" started-at="2017-05-30T22:54:58Z" finished-at="2017-05-30T22:55:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- positiveLoginTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.bts.LoginTest@25b2fe]" name="tearDown" is-config="true" duration-ms="3489" started-at="2017-05-30T22:55:18Z" finished-at="2017-05-30T22:55:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.bts.LoginTest -->
+    </test> <!-- LogInTest-Chrome -->
+    <test name="LogInTest-FF" duration-ms="35937" started-at="2017-05-30T17:24:46Z" finished-at="2017-05-30T17:25:22Z">
+      <class name="com.bts.LoginTest">
+        <test-method status="PASS" signature="methodSetUp(java.lang.String)[pri:0, instance:com.bts.LoginTest@17fd0e6]" name="methodSetUp" is-config="true" duration-ms="17819" started-at="2017-05-30T22:54:46Z" finished-at="2017-05-30T22:55:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodSetUp -->
+        <test-method status="PASS" signature="positiveLoginTest()[pri:0, instance:com.bts.LoginTest@17fd0e6]" name="positiveLoginTest" duration-ms="17252" started-at="2017-05-30T22:55:04Z" finished-at="2017-05-30T22:55:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- positiveLoginTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.bts.LoginTest@17fd0e6]" name="tearDown" is-config="true" duration-ms="783" started-at="2017-05-30T22:55:21Z" finished-at="2017-05-30T22:55:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.bts.LoginTest -->
+    </test> <!-- LogInTest-FF -->
+  </suite> <!-- FirstTestSuite -->
+</testng-results>
